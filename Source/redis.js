@@ -1,4 +1,5 @@
-import { connect } from "https://deno.land/x/redis@v0.25.4/mod.ts";
+
+import { connect } from './deps.ts';
 
 var redis = async (options)=>{
     var c = await connect(options);

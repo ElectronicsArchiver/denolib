@@ -1,4 +1,4 @@
-import {Sync} from 'https://raw.githubusercontent.com/txthinking/denolib/master/f.js';
+import { Sync } from './deps.ts'
 
 var localstorage = (file) => {
     var sync = new Sync();

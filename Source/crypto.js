@@ -1,7 +1,5 @@
-import { AES } from "https://deno.land/x/god_crypto@v1.4.10/mod.ts";
-import { decode as hexdecode } from "https://deno.land/std@0.130.0/encoding/hex.ts";
-import { encode as hexencode } from "https://deno.land/std@0.130.0/encoding/hex.ts";
-import { randomBytes } from "https://deno.land/std@0.130.0/node/crypto.ts";
+
+import { AES , hexdecode , hexencode , randomBytes } from './deps.ts'
 
 var crypto = (key) => {
     if(key.length != 32){
